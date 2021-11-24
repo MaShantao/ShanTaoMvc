@@ -23,7 +23,7 @@ public class UserController {
     @RequestMapping(value = "/getById")
     @ResponseBody
     public TbUser listUserJson() {
-        return  userService.listUserJson();
+        return userService.listUserJson();
     }
 
 }
